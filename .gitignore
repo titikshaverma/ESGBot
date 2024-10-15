@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Python-specific
+*.log
+*.pot
+*.pyo
+*.orig
+*.so
+*.pyd
+*.pyo
+
+# Test coverage reports
+htmlcov/
+.tox/
+.cache/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Profiling data
+*.prof
+*.bench
+
+# Package manager files
+Pipfile.lock
+poetry.lock
+
+# Pyright/Type checker
+pyright/
+
+# Tensorflow, PyTorch, or other model files
+*.h5
+*.ckpt
+*.pt
+*.onnx
+*.pb
+
+# RAG-specific or other models
+*.bin
+*.index
+*.data-00000-of-00001
+
+# Datasets and training data
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+# Secrets or sensitive information
+.env
+*.secret
+*.key

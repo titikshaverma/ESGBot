@@ -10,6 +10,8 @@ ENV/
 .venv/
 env.bak/
 env/
+test/
+esg/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
@@ -75,3 +77,5 @@ datasets/
 .env
 *.secret
 *.key
+*.toml
+*.streamlit
